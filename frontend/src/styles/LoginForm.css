@@ -1,0 +1,51 @@
+/* Center the body content using flexbox */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f5f5f5;
+}
+
+/* Container for the form */
+.container {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #8E7DBE;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  padding: 12px;
+  background-color: #7886C7;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #A9B5DF;
+}
+
+p {
+  color: #F4F8D3;
+  font-size: 12px;
+}
